@@ -197,3 +197,58 @@ footer {
      color: #e49101;
      text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+     .logo {
+          display: block;
+          justify-content: center;
+     }
+
+     #children {
+          width: 360px;
+     }
+     nav {
+          overflow: scroll;
+          white-space: nowrap;
+     }
+     header ul li{
+          display: inline-block;
+          text-align: center;
+          padding: 14px;
+          text-decoration: none;
+          height: 30px;
+     }
+
+     .grid,
+     .container {
+          display: block;
+          max-width: fit-content;
+     }
+
+     .grid-4 {
+          display: block;
+          justify-content: center;
+          gap: 15px;
+          margin-top: 10px;
+     }
+
+     .escape-game div {
+          margin-bottom: 15px;
+     }
+     
+     .sheets {
+          display: block;
+          justify-content: start;
+          gap: 50px;
+     }
+
+     .alfred,
+     .form {
+          display: none;
+     }
+
+     body {
+          margin: 0;
+          box-sizing: border-box;
+     }
+}
