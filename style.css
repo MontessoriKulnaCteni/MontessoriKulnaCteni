@@ -63,7 +63,7 @@ nav ul {
      margin: 0;
      padding: 0;
      height: 100%;
-     align-content: center;
+     align-content: flex-start;
      justify-content: center;
 }
 
@@ -203,16 +203,17 @@ footer {
      .logo {
           display: block;
           justify-content: center;
+          margin-left: 10px;
      }
 
      #children {
           width: 360px;
      }
      nav ul{
-          overflow: scroll;
+          overflow: auto;
           white-space: nowrap;
      }
-     header ul li{
+     nav ul li{
           display: inline-block;
           text-align: center;
           padding: 14px;
