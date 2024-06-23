@@ -209,9 +209,13 @@ footer {
      #children {
           width: 360px;
      }
-     nav ul{
-          overflow: auto;
+     nav {
+          overflow: scroll;
           white-space: nowrap;
+     }
+     nav ul {
+          text-align: justify;
+          width: 43em;
      }
      nav ul li{
           display: inline-block;
@@ -225,6 +229,7 @@ footer {
      .container {
           display: block;
           max-width: fit-content;
+          margin-left: 15px;
      }
 
      .grid-4 {
